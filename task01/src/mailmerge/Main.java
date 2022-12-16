@@ -44,7 +44,7 @@ public class Main {
 
         br.close();
         
-        System.out.println(fileList + "\n");
+        // System.out.println(fileList + "\n");
 
         // List to map to store key: value pairs
 
@@ -56,7 +56,7 @@ public class Main {
             mapValueList = new ArrayList<String>();
         }
 
-        System.out.println("database: \n" + peopleMap);
+        // System.out.println("database: \n" + peopleMap);
 
         File templatefile = new File(templateFileName);
         FileReader tfr = new FileReader(templatefile);
@@ -77,9 +77,9 @@ public class Main {
         }
         tbr.close();
 
-        System.out.println("\nkeywords: " + keywords);
-        System.out.println("\npeoplemap: " + peopleMap);
-        System.out.println("\nfilelist: " + fileList);
+        // System.out.println("\nkeywords: " + keywords);
+        // System.out.println("\npeoplemap: " + peopleMap);
+        // System.out.println("\nfilelist: " + fileList);
         // matching key with template
 
         for (Integer j = 0; j<fileList.size()-1;j++){
