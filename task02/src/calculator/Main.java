@@ -31,7 +31,6 @@ public class Main {
                     cont = false;
                 } else {
                     userStringList = Arrays.asList(userInput.split(" "));
-                    // System.out.println(userStringList);
                     if (userStringList.get(0).equals("$last")) {
                         number1 = answer;
                     } else {
@@ -65,17 +64,11 @@ public class Main {
                     }
                     System.out.println(Float.toString(answer).replaceAll("\\.0+$", ""));
                 }
-             } catch (Exception e){
+            } catch (Exception e) {
                     System.out.println("error, write in this format <number> <space> <operator> <space> <number>");
-                }
-                    
-            }
-
-        
+            }  
+        }
         sc.close();
         System.out.println("Bye bye");
-
-
-
     }
 }

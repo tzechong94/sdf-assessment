@@ -103,10 +103,7 @@ public class Main {
         } 
         System.out.println(email+"\n");
         tbr1.close();
-    }
-        // }
-
-        // replacing key with template 
+        }
     }
     
 }
